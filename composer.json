@@ -1,0 +1,17 @@
+{
+    "name": "lehoanghau/shop-thoi-trang",
+    "description": "Xây dựng website bán hàng - Thầy Lợi dạy",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.28",
+        "illuminate/events": "^10.28"
+    }
+}
